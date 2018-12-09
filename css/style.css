@@ -351,6 +351,10 @@ i.dolor {
   line-height: 1;
   bottom: 80px;
 }
+.tel:hover {
+  text-decoration: none;
+  color: #f39c12;
+}
 .policy {
   width: 90%;
   margin: 0 auto;
