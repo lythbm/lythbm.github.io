@@ -178,7 +178,6 @@ p.have {
   line-height: 1.7em;
 }
 a.register {
-  display: inline-block;
   text-decoration: none;
   font-size: 1.3em;
   color: #fff;
@@ -327,15 +326,29 @@ i.dolor {
   bottom: 20px;
   right: 10px;
   overflow: hidden;
-  width: 40px;
-  height: 40px;
-  border: none;
-  background: url("../images/up.png") no-repeat 0px 0px;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  background: #fff;
+  color: #f39c12;
+  border: 3px #f39c12 solid;
+  border-radius: 50%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+  box-sizing: border-box;
+}
+#toTop {
+  font-size: 16px;
+  line-height: 36px;
+}
+#toTop>span {
+  margin-left: -1px;
 }
 .tel {
   display: block;
-  bottom: 70px;
-  background: url("../images/tel.png") no-repeat 0px 0px;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1;
+  bottom: 80px;
 }
 .policy {
   width: 90%;
