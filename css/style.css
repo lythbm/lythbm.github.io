@@ -272,33 +272,6 @@ i.dolor {
   color: #f39c12;
   text-decoration: none;
 }
-ul.social-in {
-  padding: 1em 0 0;
-}
-ul.social-in li {
-  display: inline-block;
-}
-ul.social-in li i {
-  background: url(../images/img-sprite.png) no-repeat -10px -12px;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -o-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -ms-transition: 0.5s all;
-  vertical-align: middle;
-}
-ul.social-in li i:hover {
-  background-position: -38px -12px;
-}
-ul.social-in li i.twitter {
-  background-position: -70px -12px;
-}
-ul.social-in li i.twitter:hover {
-  background-position: -99px -12px;
-}
 .nav-bottom li {
   list-style: none;
   line-height: 2em;
@@ -358,6 +331,12 @@ ul.social-in li i.twitter:hover {
   border: none;
   text-indent: 100%;
   background: url("../images/up.png") no-repeat 0px 0px;
+}
+.policy {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em;
+  font-size: 1.4em;
 }
 @media (max-width: 1440px) {
   .content-middle h2 {
