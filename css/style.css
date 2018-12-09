@@ -178,6 +178,7 @@ p.have {
   line-height: 1.7em;
 }
 a.register {
+  display: inline-block;
   text-decoration: none;
   font-size: 1.3em;
   color: #fff;
@@ -333,7 +334,7 @@ i.dolor {
   color: #f39c12;
   border: 3px #f39c12 solid;
   border-radius: 50%;
-  box-shadow: 0 0 2px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
   box-sizing: border-box;
 }
 #toTop {
