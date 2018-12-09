@@ -539,7 +539,8 @@ i.dolor {
   }
   a.register {
     padding: .2em 1.2em;
-    margin: .3em auto;
+    margin: .5em auto;
+    border: 2px solid #f39c12;
   }
   .content-bottom h3 {
     font-size: 2em;
@@ -583,6 +584,7 @@ i.dolor {
   }
   .copyright {
     padding: 1.5em 0;
+    font-size: 1em;
   }
   .copyright span {
     display: block;
@@ -632,9 +634,7 @@ i.dolor {
     line-height: 1em;
   }
   a.register {
-    padding: 0.4em 1.5em;
     font-size: 1em;
-    margin: 1em auto;
   }
   .content-middle {
     min-height: 342px;
