@@ -319,18 +319,23 @@ i.dolor {
 .copyright a:hover {
   color: #f39c12;
 }
-#toTop {
+.tel, #toTop {
   display: none;
+  cursor: pointer;
   text-decoration: none;
   position: fixed;
-  bottom: 25px;
+  bottom: 20px;
   right: 10px;
   overflow: hidden;
-  width: 53px;
-  height: 53px;
+  width: 40px;
+  height: 40px;
   border: none;
-  text-indent: 100%;
   background: url("../images/up.png") no-repeat 0px 0px;
+}
+.tel {
+  display: block;
+  bottom: 70px;
+  background: url("../images/tel.png") no-repeat 0px 0px;
 }
 .policy {
   width: 90%;
