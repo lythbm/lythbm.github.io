@@ -597,6 +597,9 @@ i.dolor {
   .sed-in h4 {
     font-size: 1.2em;
   }
+  .policy {
+    font-size: 1.2em;
+  }
 }
 @media (max-width: 320px) {
   .logo {
