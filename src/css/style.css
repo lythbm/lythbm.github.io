@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, label, p {
   margin: 0;
 }
 .header {
-  background: url(../images/banner.png) no-repeat left bottom;
+  background: url(../img/banner.png) no-repeat left bottom;
   width: 100%;
   min-height: 1000px;
   display: block;
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6, label, p {
   text-align: center;
 }
 .header-in {
-  background: url(../images/banner.png) no-repeat top;
+  background: url(../img/banner.png) no-repeat top;
   width: 100%;
   min-height: 100px;
   display: block;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, label, p {
   padding: 2em 0;
 }
 .top-nav span.menu:before {
-  content: url(../images/menu.png) no-repeat 0px 0px;
+  content: url(../img/menu.png) no-repeat 0px 0px;
   cursor: pointer;
   width: 100%;
 }
@@ -153,7 +153,7 @@ p.have {
   padding: 6em 1em 0;
 }
 .content-middle {
-  background: url(../images/back.png) no-repeat 0px 0px;
+  background: url(../img/back.png) no-repeat 0px 0px;
   width: 100%;
   min-height: 785px;
   display: block;
@@ -201,7 +201,7 @@ p.para-in strong {
 i.dolor {
   position: absolute;
   right: 0;
-  background: url(../images/arr.png) no-repeat 0px 0px;
+  background: url(../img/arr.png) no-repeat 0px 0px;
   width: 400px;
   min-height: 5em;
 }
@@ -245,7 +245,7 @@ i.dolor {
 }
 .footer {
   position: relative;
-  background: #f7f7f9 url(../images/back2.png) no-repeat top;
+  background: #f7f7f9 url(../img/back2.png) no-repeat top;
   width: 100%;
   min-height: 600px;
   display: block;

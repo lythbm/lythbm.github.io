@@ -13,7 +13,13 @@ var htmlmin = require('gulp-htmlmin'),    // html压缩
 gulp.task('html', function() {
   return gulp
     .src('src/*.html')
-    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      conservativeCollapse: false,
+      collapseInlineTagWhitespace: true,
+      removeComments: true,
+      removeAttributeQuotes: true
+    }))
     .pipe(gulp.dest('./'))
     .pipe(notify({ message: 'html task ok' }));
 });
@@ -21,7 +27,7 @@ gulp.task('html', function() {
 // 压缩图片
 gulp.task('img', function() {
   return gulp
-    .src('src/images/*')
+    .src('src/img/*')
     .pipe(
       imagemin({
         progressive: true,
@@ -29,7 +35,7 @@ gulp.task('img', function() {
         use: [pngcrush()]
       })
     )
-    .pipe(gulp.dest('./images/'))
+    .pipe(gulp.dest('./img/'))
     .pipe(notify({ message: 'img task ok' }));
 });
 
